@@ -5609,7 +5609,7 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-zenn-cli@^0.1.21:
+zenn-cli@0.1.21:
   version "0.1.21"
   resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.21.tgz#58128fd38bdd20ba4ee742e8793b2073f34261e5"
   integrity sha512-DLAU6IgOM2AMxSxueFbteUpJWyKmIXiNagiF/fJ5ejZooJBLxjYH97ztTgN50gnJP5hAtHzUUJhLUvIT0pldxg==
