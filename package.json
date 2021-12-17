@@ -1,6 +1,6 @@
 {
   "dependencies": {},
   "devDependencies": {
-    "zenn-cli": "0.1.99"
+    "zenn-cli": ">=0.1.99"
   }
 }
