@@ -73,10 +73,10 @@ wsl-utils@^0.1.0:
   dependencies:
     is-wsl "^3.1.0"
 
-zenn-cli@0.4.8:
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.4.8.tgz#6f01b0369edb1eb16de14759c8f62b09bad29f5b"
-  integrity sha512-DIJv1udDCyHd6AqoBaQDjTMs/3fo1KUCpumgyy/X8Yt1SKB/egLmhhNmePGukkIhUZDld1+RLoMWOEBky6njwg==
+zenn-cli@0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.5.0.tgz#ab7538c1086c6fc31ed746a5b61fb067ee14ab1c"
+  integrity sha512-jjcY3cM9DIIor9pQ9zYOegqdSZ8hsK/rENv90zLnd/uvTq3uNW141tijnKC/NtshI73rUCzhtzIilGS00rCFsw==
   dependencies:
     open "^10.2.0"
     package-manager-detector "^1.6.0"
