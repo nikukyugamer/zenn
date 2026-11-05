@@ -400,10 +400,10 @@
     "@typespec/ts-http-runtime" "^0.3.0"
     tslib "^2.6.2"
 
-"@azure/identity@^4.14.0":
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/@azure/identity/-/identity-4.14.0.tgz#2ab480fc79070036f5c9f7d82f3060db366576f0"
-  integrity sha512-8utCLdTZn14CiAe0HW4JbtzUMsc0mdDwnjUvStFMrR4IxQP8S2eL9zVAdplpfORVJGYmidZElpeXRYjJQ4UyUw==
+"@azure/identity@^4.14.1":
+  version "4.14.1"
+  resolved "https://registry.yarnpkg.com/@azure/identity/-/identity-4.14.1.tgz#12cf11210b5341887ba27883501bda1e5c00c8b0"
+  integrity sha512-HHuuFrmN1uuF9D5A6aAo5eHzNFNX4Q+P4SksZqDKse5YaJFFy/zDLG3wXHEV2FVGgetZ3QM8jGURNBtnQYf1NQ==
   dependencies:
     "@azure/abort-controller" "^2.0.0"
     "@azure/core-auth" "^1.9.0"
@@ -414,7 +414,7 @@
     "@azure/core-util" "^1.11.0"
     "@azure/logger" "^1.0.0"
     "@azure/msal-browser" "^5.5.0"
-    "@azure/msal-node" "^6.0.0"
+    "@azure/msal-node" "^7.1.0"
     open "^11.0.0"
     tslib "^2.2.0"
 
@@ -433,22 +433,22 @@
   dependencies:
     "@azure/msal-common" "16.14.3"
 
-"@azure/msal-common@16.14.1":
-  version "16.14.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.14.1.tgz#2c987f31da858e544e72b6faa986fecdb3de20f8"
-  integrity sha512-Or6xhPNyi4zHW25158yxBoyxuCqNSPa5YBVqfF1J5Ks4MJWBo/USXdp05DQIPu1Zli00YZu6t0+h6KvHJealxQ==
-
 "@azure/msal-common@16.14.3":
   version "16.14.3"
   resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.14.3.tgz#dbf1a58a8635ca5900d8f89b20a7e032f59e3f61"
   integrity sha512-tz3GvMrR9V/plb2lDdW8qaO8CPpfZevdExBKjltzzbAtyhK0eB2UIvji1aU+gkyHj3fxQ2ie+LNHyMXdmo8wOg==
 
-"@azure/msal-node@^6.0.0":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-6.0.1.tgz#48b9d5a472f16b403bd3a32494227ecfc54cafd4"
-  integrity sha512-ixSO1Y/kCVRthRs+hSx/5qkwaunX1/RAePhlMN0wIpIQ4WEZ6AREGGnGd1AP0qspHVsAwzWQKGubpjh50JyJIQ==
+"@azure/msal-common@16.16.0":
+  version "16.16.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-16.16.0.tgz#cf8ba5ec852397f2e1441274b5003f96bf6c5474"
+  integrity sha512-EZgd8h5nczsdRAQAgXA0A0pC5L/zj43n1jePXvUMgdwXMbH2zhb7b7Hp+Oe7ZOODK/sch2x+soD6FOrtgUbx/w==
+
+"@azure/msal-node@^7.1.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-7.2.0.tgz#e725b6590017ce0c315756e97adf81b0eb37a4a0"
+  integrity sha512-Y87VJsMWF4jiqLqq8XYLb1o+rGc/HacwS3Zydi3bDtaVm5Sa8FlB7YrKrBFKRIYj27RJXAaDkErImMAqtM10Pg==
   dependencies:
-    "@azure/msal-common" "16.14.1"
+    "@azure/msal-common" "16.16.0"
     jsonwebtoken "^9.0.0"
 
 "@openrouter/ai-sdk-provider@^3.1.0":
@@ -2623,10 +2623,10 @@ xdg-basedir@^5.1.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-5.1.0.tgz#1efba19425e73be1bc6f2a6ceb52a3d2c884c0c9"
   integrity sha512-GCPAHLvrIH13+c0SuacwvRYj2SxJXQ4kaVTT5xgL3kPrz56XxkF21IGhjSE1+W0aw7gpBWRGXLCPnPby6lSpmQ==
 
-zenn-cli@0.5.13:
-  version "0.5.13"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.5.13.tgz#cc24d1c4a0096c6325f343b911ab1661fc2dde8b"
-  integrity sha512-jtWeX30qU2RCl96fKmjYgPI/jZ7tMXgkd3Ceymdp2sJU0oREJDMraH1dmv1F/hVjiXPVXbpenrhcfK16LdZrQA==
+zenn-cli@0.5.14:
+  version "0.5.14"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.5.14.tgz#da7a194c964d9c5595bb50b476f1f12d5b6b7f04"
+  integrity sha512-843/88s2fU8A/6mJjHEp3fZVMpcXcoIsmlJc+TjXv8f9/CMH/luGdl0kBuLSh4q3U6kx9JQiwk3LBJBZbNZtPw==
   dependencies:
     "@ai-sdk/amazon-bedrock" "^5.0.123"
     "@ai-sdk/anthropic" "^4.0.87"
@@ -2635,7 +2635,7 @@ zenn-cli@0.5.13:
     "@ai-sdk/google-vertex" "^5.0.121"
     "@ai-sdk/openai" "^4.0.101"
     "@aws-sdk/credential-providers" "^3.1156.0"
-    "@azure/identity" "^4.14.0"
+    "@azure/identity" "^4.14.1"
     "@openrouter/ai-sdk-provider" "^3.1.0"
     "@secretlint/node" "^13.0.6"
     "@secretlint/secretlint-rule-preset-recommend" "^13.0.6"
@@ -2654,13 +2654,13 @@ zenn-cli@0.5.13:
     open "^11.0.4"
     package-manager-detector "^1.6.0"
     ws "^8.18.3"
-    zenn-markdown-html "0.5.13"
-    zod "^4.4.3"
+    zenn-markdown-html "0.5.14"
+    zod "^4.6.7"
 
-zenn-markdown-html@0.5.13:
-  version "0.5.13"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.5.13.tgz#47ae0be5512d2e4ef0b19f3a2c04e0dabd5fb79c"
-  integrity sha512-DxTH1DmQ10UaXfMdflXGthQ5ByoRV+fpDwbm6829yj9Ie5qJwUTOksDojsanyewrt9ITRofVYQiZ9BGwgozShw==
+zenn-markdown-html@0.5.14:
+  version "0.5.14"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.5.14.tgz#e820095e1fd95b565ed50d459899f2475e795ead"
+  integrity sha512-ew6BpUTdcXucjgZTPYRkGJM4rJJfzFFUQcQ+HLIXNVHO4x9zAKshFlOvUG7ANw1hiGCkagkTI3SJm5h7hTvTdA==
   dependencies:
     cheerio "1.2.0"
     markdown-it "^15.0.3"
@@ -2673,10 +2673,10 @@ zenn-markdown-html@0.5.13:
     sanitize-html "^2.17.0"
     shiki "^4.4.3"
 
-zod@^4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-4.4.3.tgz#b680f172885d18bbebf21a834ea25e55a1bbf356"
-  integrity sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==
+zod@^4.6.7:
+  version "4.6.7"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-4.6.7.tgz#e806cf64a7f4e37635ce9f2f52c04c3766f75e5b"
+  integrity sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==
 
 zwitch@^2.0.4:
   version "2.0.4"
