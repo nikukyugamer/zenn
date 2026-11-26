@@ -451,6 +451,11 @@
     "@azure/msal-common" "16.16.0"
     jsonwebtoken "^9.0.0"
 
+"@mediabunny/aac-encoder@^1.66.0":
+  version "1.66.4"
+  resolved "https://registry.yarnpkg.com/@mediabunny/aac-encoder/-/aac-encoder-1.66.4.tgz#ab720854aabe4cff92e924ea564cede55a30ecda"
+  integrity sha512-OlP9dwlc3me0/fTBwnjvZqOgKTrpbgiMzMQgU2a8zAFDYaJJmwYx+FRalHc+iQdIpssv+w3+2TWChaqBymfW9w==
+
 "@openrouter/ai-sdk-provider@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@openrouter/ai-sdk-provider/-/ai-sdk-provider-3.1.0.tgz#67afdd5c797e5365633f78085348cf1dac2b501f"
@@ -713,6 +718,23 @@
   integrity sha512-Anhc6y5736YIsvqae0U6k0YmB2M/QVHkEeOv2aydAn/WIkdI69dCOiDbe3/+RagS3qstFTSFWJzNRA2lUjv19w==
   dependencies:
     "@textlint/ast-node-types" "15.8.0"
+
+"@types/dom-mediacapture-transform@^0.1.11":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@types/dom-mediacapture-transform/-/dom-mediacapture-transform-0.1.12.tgz#82fdc7aa2eb97a7a73e2df774080068bef2e599b"
+  integrity sha512-d7/QsLRwF864A5mgIM/YrfiglHoYn7zgCcAoJgW404r+2DwnNr7EBbLnCWpmOMgH8y0te73L1AV6H1bmauaWFw==
+  dependencies:
+    "@types/dom-webcodecs" "*"
+
+"@types/dom-webcodecs@*":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@types/dom-webcodecs/-/dom-webcodecs-0.1.19.tgz#46479c9f47fb0024b762aa38987b38e3c31ac650"
+  integrity sha512-+yFUIDUaASFz0vQpWBErPxun/Lb+F0TdrlTsj50gm7K797YzEx2TmV6fEiwciHyFNghlZYPgQXH5qRcwMHcJFQ==
+
+"@types/dom-webcodecs@0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@types/dom-webcodecs/-/dom-webcodecs-0.1.13.tgz#d8be5da4f01b20721307b08ad2cca903ccf4f47f"
+  integrity sha512-O5hkiFIcjjszPIYyUSyvScyvrBoV3NOEEZx/pMlsu44TKzWNkLVBBxnxJz42in5n3QIolYOcBYFCPZZ0h8SkwQ==
 
 "@types/hast@^3.0.0", "@types/hast@^3.0.5":
   version "3.0.5"
@@ -1881,6 +1903,14 @@ media-typer@^1.1.0:
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-1.1.1.tgz#6f035400dfe3ab9d5607bc77546ce30cc2f9c6b8"
   integrity sha512-yz3xRaG20c6/BOzvYoDaGtPmGscs7YivItZEEqe6GbwNfHuxu9YNmvnEkMzKldAGY4/80pRcQRZSEnhquk9XuQ==
 
+mediabunny@^1.66.0:
+  version "1.66.4"
+  resolved "https://registry.yarnpkg.com/mediabunny/-/mediabunny-1.66.4.tgz#47e1de354ea07066a688ba30c6783d8c71da0bd7"
+  integrity sha512-VIPwwaVpY5mUnf9mAOJlBii4P1nHK05X8//veRjJrddn514BSOuYaMrUy1UReLMVVsm85id6eMu0z5K71Kkf+g==
+  dependencies:
+    "@types/dom-mediacapture-transform" "^0.1.11"
+    "@types/dom-webcodecs" "0.1.13"
+
 merge-descriptors@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-2.0.0.tgz#ea922f660635a2249ee565e0449f951e6b603808"
@@ -2617,10 +2647,10 @@ xdg-basedir@^5.1.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-5.1.0.tgz#1efba19425e73be1bc6f2a6ceb52a3d2c884c0c9"
   integrity sha512-GCPAHLvrIH13+c0SuacwvRYj2SxJXQ4kaVTT5xgL3kPrz56XxkF21IGhjSE1+W0aw7gpBWRGXLCPnPby6lSpmQ==
 
-zenn-cli@0.5.15:
-  version "0.5.15"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.5.15.tgz#909abcf233f4b95845803dc59e1b500ccfcac524"
-  integrity sha512-cSNtFx/b9o2gEh9QxGT3m+qKLd431tzPvio3/IsIRMis6Y0OhkKo2xFIizZjZ7qxpSOuxNGoEuqdFdgO8BJcFQ==
+zenn-cli@0.5.16:
+  version "0.5.16"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.5.16.tgz#5651045b322875a7a24d9df99d843ab7884c132e"
+  integrity sha512-2BtTi46yLr5s6aczxk2Ul7Guc6tlc9u8Wtxe54V1oOAUWcSRMS7CamhUopUpIBn+xzR6s7J+6Mhil0OwEbQoFA==
   dependencies:
     "@ai-sdk/amazon-bedrock" "^5.0.123"
     "@ai-sdk/anthropic" "^4.0.87"
@@ -2630,6 +2660,7 @@ zenn-cli@0.5.15:
     "@ai-sdk/openai" "^4.0.101"
     "@aws-sdk/credential-providers" "^3.1156.0"
     "@azure/identity" "^4.14.1"
+    "@mediabunny/aac-encoder" "^1.66.0"
     "@openrouter/ai-sdk-provider" "^3.1.0"
     "@secretlint/node" "^13.0.6"
     "@secretlint/secretlint-rule-preset-recommend" "^13.0.6"
@@ -2644,17 +2675,18 @@ zenn-cli@0.5.15:
     fs-extra "^11.3.2"
     image-size "^2.0.2"
     js-yaml "^5.2.1"
+    mediabunny "^1.66.0"
     node-fetch "^3.3.2"
     open "^11.0.4"
     package-manager-detector "^1.6.0"
     ws "^8.18.3"
-    zenn-markdown-html "0.5.15"
+    zenn-markdown-html "0.5.16"
     zod "^4.6.7"
 
-zenn-markdown-html@0.5.15:
-  version "0.5.15"
-  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.5.15.tgz#a3ed5d248bb0b5acf53f590fd7688f0b6bf0ce27"
-  integrity sha512-2k1SMYdUtrMJhkPeYezSUtqNjcmsEFJUKCwwzM85ohUWpvbCnkxNrp2Wa/wAh+BmsIK+SUdKwGAoq5zFmFvxmg==
+zenn-markdown-html@0.5.16:
+  version "0.5.16"
+  resolved "https://registry.yarnpkg.com/zenn-markdown-html/-/zenn-markdown-html-0.5.16.tgz#cb262b227c161439004bf7b4bef5ca94c802eb43"
+  integrity sha512-CmCZZ9na8rjAOlFXWse88CQ+64EQQjs35CBhv/yc+GAUFIYxcyrwzf62SR5AdBQFJ/SjwY6aevpv+PvQsNoExw==
   dependencies:
     cheerio "1.2.0"
     markdown-it "^15.0.3"
